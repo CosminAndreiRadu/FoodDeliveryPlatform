@@ -1,0 +1,3 @@
+delete from drinks
+delete from desserts
+delete from maindishes

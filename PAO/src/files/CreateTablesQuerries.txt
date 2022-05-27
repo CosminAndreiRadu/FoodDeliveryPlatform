@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS desserts (dessert_id integer PRIMARY KEY AUTO_INCREMENT, name varchar(25), price double, alergens varchar(100), sugar int)
+CREATE TABLE IF NOT EXISTS drinks (drink_id integer PRIMARY KEY AUTO_INCREMENT, name varchar(25), price double, alergens varchar(100), temperature varchar(5), flavour varchar(15))
+CREATE TABLE IF NOT EXISTS maindishes (maindish_id integer PRIMARY KEY AUTO_INCREMENT, name varchar(25), price double, alergens varchar(100), ingredients varchar(100), spicy int)

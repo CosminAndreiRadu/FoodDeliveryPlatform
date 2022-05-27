@@ -1,0 +1,3 @@
+drop table if exists drinks
+drop table if exists desserts
+drop table if exists maindishes
